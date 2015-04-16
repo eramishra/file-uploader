@@ -1,0 +1,73 @@
+.file_upload_wrap .hidden {
+  display: none;
+}
+.uploaded_file_list {
+  width: 100%;
+}
+.file_label {
+  min-width: 70%;
+  max-width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-bottom: 8px; 
+  background: #f5f5f5;
+  clear: both;
+}
+.file_label span.file_name {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  padding: 5px 8px;
+  display: inline-block;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.file_label .remove_file {
+  float: right;
+  display: inline-block;
+  padding: 4px 8px;
+}
+.upload_input {
+  margin-left: 0;
+  float: none;
+}
+.button_container {
+  float: left;
+  width: 100%;
+}
+a.add_file, a.add_file:hover {
+  display: inline-block;
+  float: none;
+  border: 0;
+  margin: 8px 0;
+  text-shadow: none;
+  padding: 5px 8px;
+  background: #999;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+a.add_file:hover {
+  background: #aeacac;
+}
+.upload_message {
+  border: 1px solid #e94b3b;
+  padding: 8px 10px;
+  color: #e94b3b;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+input.upload_input {
+  margin-bottom: 5px;
+}
+.file_label:first-child {
+  margin-top: 8px;
+}
+.throw-out {
+  position: fixed;
+  top: -100%;
+}

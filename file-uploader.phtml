@@ -1,0 +1,27 @@
+<div class="file_upload_wrap" id="<?php echo $this->upload_wrap_id; ?>">
+  <p class="upload_message hidden"></p>
+  <div class="uploaded_file_list">
+  </div> 
+  <div class="uploaded_files hidden">
+  </div>
+  
+  <div class="existing_file_label_template" style="display: none;">
+    <div class="file_label existing_files">
+      <span class="file_name">::FileName::</span> 
+      <a class="remove_file" href="javascript:void(0)">X</a>
+      <input type="hidden" name="::FileType::"  value="::FileId::">
+    </div>
+  </div>
+  <div class="element_template" style="display: none;">
+    <input type="file" class="upload_input" name="::FileName::"/>
+  </div>
+  <div class="file_label_template" style="display: none;">
+    <div class="file_label">
+      <span class="file_name">::FileName::</span>
+      <a class="remove_file" href="javascript:void(0)">X</a>
+    </div>
+  </div>
+  <div class="button_container">
+    <a href="javascript:void(0)" class="button add_file">Attach</a>
+  </div>
+</div>
